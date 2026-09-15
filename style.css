@@ -1,0 +1,106 @@
+body {
+    background-color: lightgreen;
+}
+
+h1 {
+    color: darkgreen;
+    font-size: 70px;
+    text-align: center;
+}
+
+.speciaal {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 20px;
+    border: 3px solid white;
+    width: 200px;
+    height: 60px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.kaart {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+    box-shadow: 0 4px 10px gray;
+    transition: 0.3s;
+border: 3px solid darkgreen;
+height: 150px;
+}
+
+.kaart:hover {
+    transform: translateY(-10px) scale(1.05);
+}
+.navbar {
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: darkgreen;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar a:hover {
+    color: lightgreen;
+}
+.contact-knop {
+    background-color: white;
+    color: darkgreen !important;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.contact-knop:hover {
+    background-color: lightgreen;
+}
+img {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px gray;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.kaart h2 {
+    color: darkgreen;
+    margin-top: 0;
+}
+
+.kaart p {
+    font-size: 18px;
+}
+.container {
+    align-items: center;
+}
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
